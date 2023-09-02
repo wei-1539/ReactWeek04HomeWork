@@ -146,7 +146,7 @@ nav {
 nav h1 a {
   width: 243px;
   height: 39px;
-  background: url(https://upload.cc/i1/2022/03/23/8vTzYG.png) no-repeat;
+  background: url(./assets/logo.png) no-repeat;
   display: block;
   text-indent: 101%;
   overflow: hidden;
@@ -499,14 +499,14 @@ nav ul a span {
 .todoList_list .todoList_items li a {
   margin-left: 17px;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   color: #333333;
-  opacity: 0;
+  // opacity: 0;
 }
 
-.todoList_list .todoList_items li:hover a {
-  opacity: 1;
-}
+// .todoList_list .todoList_items li:hover a {
+//   opacity: 1;
+// }
 
 .todoList_list .todoList_statistics {
   display: -webkit-box;

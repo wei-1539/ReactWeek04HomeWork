@@ -465,8 +465,8 @@ nav ul a span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #e5e5e5;
-  padding-bottom: 15px;
+  // border-bottom: 1px solid #e5e5e5;
+  // padding-bottom: 15px;
   color: #333333;
   line-height: 20.27px;
 }
@@ -493,7 +493,9 @@ nav ul a span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 17px;
+  // margin-bottom: 17px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .todoList_list .todoList_items li a {
@@ -528,3 +530,6 @@ nav ul a span {
   text-decoration: none;
 }
 /*# sourceMappingURL=all.css.map */
+.editInput{
+  font-size: 16px;
+}

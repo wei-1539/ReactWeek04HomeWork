@@ -58,10 +58,10 @@ function Todo() {
         // console.log(list)
         
     }
-    // 計算已完成項目
+    // 計算待完成項目
     function finalNum() {
         
-        const finish = list.filter(item => item.completed === true ? item : 0)
+        const finish = list.filter(item => item.completed === false ? item : 0)
         // console.log(finish)
         return finish.length
     }
@@ -179,7 +179,7 @@ function Todo() {
 
                                 </ul>
                                 <div className="todoList_statistics">
-                                    <p> {finalNum()} 個已完成項目</p>
+                                    <p> {finalNum()} 個待完成項目</p>
                                     <a href="#" onClick={(e) => {
                                         e.preventDefault()
                                         deleteFinalItem()
